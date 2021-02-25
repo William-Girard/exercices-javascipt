@@ -1,0 +1,67 @@
+<!DOCTYPE html >
+
+<html lang="fr">
+    <head>
+        <!-- Commentaire -->
+        <!-- C'est le nom qui va dans l'onglet sur le navigateur internet -->
+
+        <title style="color: rgb(12, 12, 12);"> TestHTML</title>
+        <style>
+
+            /* Fonction de cadre pour le titre */
+            .myDiv {
+              border: 2px outset rgb(3, 3, 3);
+              background-color: rgb(28, 59, 199);
+              text-align: center;
+            }
+
+            /*Fonction alignement pour l'image*/
+            .DivCenter {
+                text-align: center;
+            }
+            /*Fonction encadrement pour le bouton Show/Hide*/
+            .myButton {
+                border: 2px outset rgb(252, 102, 2);
+                padding: 10px 25px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin:4px 2px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <!--Menu en tête-->
+        <header>
+            <nav>
+                <ol>
+                    <li><a href="Accueil.html">Page d'acceuil</a></li>
+                    <li><a href="Qui-sommes-nous.html">Qui sommes nous?</a></li>
+                    <li><a href="contact-us.html">Contactez nous</a></li>
+                    <li><a href="Test-section.html">Test section</a></li>
+                </ol>
+            </nav>
+        </header>
+        <!-- Fin menu en tête -->
+        <main>
+            <!-- Titre encadré -->
+            <div class="myDiv">
+                <h1 style="color: rgb(253, 253, 253)"> Les mouffles en tagada</h1>
+                <p style="font-family : 'Courier New'; color:rgb(83, 81, 81)"> La moufflerie </p>
+            </div>
+            <!-- Fin titre encadré -->
+            <aside>
+                <p>L'explication de la moufflerie en 10 leçons</p>
+            </aside>
+            <!-- Image au centre (cercle multicolor) -->
+            <div class="DivCenter">
+                
+                <img src="media/TestHtml Background Img.jpg" alt="cercle multicolor" width="1000" height="600">
+            </div>
+            <!-- Fin Image au centre (cercle multicolor) -->
+        </main>
+    </body>
+</html>

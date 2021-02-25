@@ -1,0 +1,103 @@
+/* Insertion image en Background */
+body{
+    background-image: linear-gradient(to right, rgba(0,0,0,.30), rgba(0, 0, 0, 0.8)),
+        url(image/cheval-guitare.jpg);
+    
+    /*background-position: 100%,50%;*/
+    /*background-repeat:no-repeat;*/
+}
+/*Fin insertion image Background */
+
+/* regler taille et couleur titre h3 */
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:1.6em;
+    color:rgb(233, 16, 16);
+}
+/* Fin reglage taille et couleur titre h3 */
+
+/* Paramètre pour changer les paragraphes */
+p{
+    border:3px solid rgb(140, 130, 194);
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    margin:25px;
+    padding: 5px 10px;
+    background: linear-gradient(to left, rgba(134, 93, 93, 0.1), rgba(0, 0, 0, 0.9));   
+}
+/* Fin paramètre pour paragraphe */
+
+/*attribut perso*/
+.text-center{
+    text-align: center;
+}
+
+.color-primary{
+    color:rgb(71, 136, 18);
+}
+
+.color-secondary{
+    color:rgb(233, 16, 16)
+}
+/*Fin attribut perso*/
+
+/* Selecteur de la source pour le mettre en violet */
+#source{
+    display: flex;
+    color: rgb(140, 130, 194);
+    margin-block-end: 50px;
+    justify-content: center;
+}
+/* Fin selecteur mis en violet */
+
+/* section p = paragraphe qui provient des sections.*/
+/*section > p = paragraphe qui provient directement des sections*/
+
+/*couleur du bouton cadre envoyer newsletter*/
+[type="submit"]{
+    background-color: turquoise;
+}
+/*Fin couleur du bouton cadre envoyer newsletter*/
+
+/* changement du cadre newsletter */
+fieldset{
+    border: 10px inset rgb(28, 14, 223);
+    padding: 15px;
+    text-align: center;
+}
+/* Fin changement du cadre newsletter */
+
+/* Police pour titre newsletter*/
+legend{
+    font-family: 'Hanalei Fill', cursive;
+    color:rgb(225, 228, 49)
+}
+/* Fin police pour titre newsletter */
+
+/* Sert a la flotaison de l'image gauche */
+.imagegauche {
+    float: left;
+    margin-right: 30px;
+}
+/* Fin flotaison de l'image gauche */
+
+/* Sert a la flotaison de l'image droite */
+.imagedroite{
+    display: flex;
+    float:right;
+    margin-left: 30px;
+}
+/* Fin flotaison de l'image gauche */
+
+/* Ma div permettant de mettre en colonne mon texte entre les deux images */
+.mydiv{
+    display: flex;
+    flex-direction: row;
+}
+.mydiv > p{
+    flex: 1;
+}
+.mydiv > h3{
+    flex: 0;
+}
+/* Fin div permettant de mettre en colonne mon texte entre les deux images */
